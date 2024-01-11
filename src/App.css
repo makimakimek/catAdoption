@@ -1,0 +1,276 @@
+#root {
+  max-width: 1820px;
+  margin: 0 auto;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 200vh;
+  overflow: auto;
+}
+
+.container1 {
+  background-color: #1f2937;
+  /* took out height: ..vh*/
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerleft {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.headerright, .titlesubtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.headerright {
+  display: flex;
+}
+
+.link {
+  padding: 30px;
+}
+
+a.whiteLink {
+  color: white;
+  text-decoration: none;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title > div {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.container1leftandright {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container1left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container1right {
+  display: flex;
+  align-items: center;
+}
+
+.image1 {
+  /*height: auto;
+  width: 100%;
+  max-width: 300px;*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  max-width: 19em;
+  margin-bottom: 4em;
+}
+
+.signupbutton1 {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titlesubtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+
+/*/////////////////////////container2/////////////////////////*/
+
+.container2 {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container2top {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+}
+
+.container2bottom {
+  display: flex;
+  justify-content: center;
+}
+
+.imageandsubtext {
+  margin: 30px;
+}
+
+.imageandsubtext > img {
+  width: 150px;
+  height: auto;
+  border: 5px solid #3882f6;
+  border-radius: 20px;
+}
+
+.imageandsubtext > div {
+  text-align: center;
+}
+
+/*////////////////////////container3////////////////////////////*/
+
+.container3 {
+  background-color: #e5e7eb;
+}
+
+.quoteandauthor {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 77vh;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+}
+
+.quote > div {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.author {
+  font-size: 20px;
+  font-weight: 800;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  margin-left: auto;
+}
+
+/*///////////////////////container4////////////////////////////*/
+
+.container4 {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.textpart {
+  background-color: #3882f6;
+  width: 120vh;
+  height: 150px;
+  max-width: 50%;
+  border-radius: 6px;
+  color: #f9faf8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container4right {
+  font-weight: 700;
+  text-align: center;
+  border: 2px solid #f9faf8;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 25px;
+}
+
+.text1 {
+  font-weight: 800;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*//////////////////////////about page elements///////////////////////*/
+
+.aboutpage{
+  height: 90vh;
+}
+
+.aboutpage .container1 {
+  height: 10vh;
+}
+
+.container5 {
+  height: 80vh;
+}
+
+.aboutpart {
+  display: flex;
+}
+
+.rightside {
+  display: flex;
+  flex-direction: column;
+}
+
+.abouttitle {
+  font-family: 'Courier New', Courier, monospace;
+  color: #1f2937;
+  font-weight: 500;
+  font-size: 150px;
+  padding: 40px;
+  position: absolute;
+  left: 27.4%;
+  top: 26%;
+}
+
+.aboutparagraph {
+  color: #1f2937;
+  font-size: 20px;
+  padding: 40px;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  width: 600px;
+  height: auto;
+}
+
+.leftside {
+  position: absolute;
+  left: 6%;
+  top: 25%;
+}
+
+.leftside >img {
+  height: 650px;
+  width: auto;
+}
