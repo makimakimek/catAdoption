@@ -1,6 +1,2 @@
-# landing-page2
-if you go to the live preview of the website, you are going to see a website about adopting cats and the 4 cats that are up for adoption right now.
-you're going to see their images, names, and details. there are also more sections on this page.
-I have also added an about us page that shows an image of a cat with a title and a description of the company.
-
-in the future, I am going to add more pages to this website, and also add javascript to it.
+#cat adoption website
+This is a website for adopting cats. It shows some cats that are up for adoption and states their names and a little fact about them. I also added an "About Us" page where there is a paragraph about the company. This website was done with flexbox. It was first done in HTML and CSS only. Later on, I converted it into React and I also used Vite while converting it. Then I used Netlify to deploy my website.
