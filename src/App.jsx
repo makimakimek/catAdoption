@@ -7,6 +7,7 @@ import cat4 from './assets/cat4.jpg'
 import cat5 from './assets/cat5.jpg'
 
 
+
 function App() {
 
   return (
@@ -19,8 +20,8 @@ function App() {
                 </div>
 
                 <div className = "headerright">
-                    <div className = "link"><a href = "/index.html" className = "whiteLink">Home</a></div>
-                    <div className = "link"><a href="pages/about.html" className = "whiteLink">About Us</a></div>
+                    <div className = "link"><a href = "/" className = "whiteLink">Home</a></div>
+                    <div className = "link"><a href = "about" className = "whiteLink">About Us</a></div>
                     <div className = "link">Contact Us</div>
                 </div>
             </div>

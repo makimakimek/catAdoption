@@ -6,7 +6,6 @@
 .page {
   display: flex;
   flex-direction: column;
-  height: 200vh;
   overflow: auto;
 }
 
@@ -15,6 +14,8 @@
   /* took out height: ..vh*/
   display: flex;
   flex-direction: column;
+  width: 1820px;
+  padding-bottom: 2em;
 }
 
 .header {
@@ -109,7 +110,8 @@ a.whiteLink {
 /*/////////////////////////container2/////////////////////////*/
 
 .container2 {
-  height: 50vh;
+  padding-top: 5em;
+  padding-bottom: 5em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -147,12 +149,13 @@ a.whiteLink {
 
 .container3 {
   background-color: #e5e7eb;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .quoteandauthor {
   display: flex;
   flex-direction: column;
-  height: 50vh;
   width: 77vh;
   margin: 0 auto;
   align-items: center;
@@ -181,11 +184,12 @@ a.whiteLink {
 /*///////////////////////container4////////////////////////////*/
 
 .container4 {
-  height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 .textpart {
@@ -222,7 +226,10 @@ a.whiteLink {
 /*//////////////////////////about page elements///////////////////////*/
 
 .aboutpage{
-  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
 }
 
 .aboutpage .container1 {
@@ -271,6 +278,10 @@ a.whiteLink {
 }
 
 .leftside >img {
-  height: 650px;
-  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  max-width: 38.5em;
 }
