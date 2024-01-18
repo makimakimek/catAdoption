@@ -5,8 +5,7 @@ import cat2 from './assets/cat2.jpg'
 import cat3 from './assets/cat3.jpg'
 import cat4 from './assets/cat4.jpg'
 import cat5 from './assets/cat5.jpg'
-
-
+import { Link } from "react-router-dom";
 
 function App() {
 
@@ -21,7 +20,7 @@ function App() {
 
                 <div className = "headerright">
                     <div className = "link"><a href = "/" className = "whiteLink">Home</a></div>
-                    <div className = "link"><a href = "about" className = "whiteLink">About Us</a></div>
+                    <div className = "link"><Link to = "about" className = "whiteLink">About Us</Link></div>
                     <div className = "link">Contact Us</div>
                 </div>
             </div>
